@@ -1,0 +1,27 @@
+{
+  "P0-Init": {
+    "status": "DONE",
+    "last_completed_loop": null,
+    "last_updated": "2026-03-05T15:10:00+08:00",
+    "acceptance_items": [
+      "读取项目文档",
+      "建立项目日志",
+      "建立阶段列表",
+      "创建artifacts目录"
+    ],
+    "all_items_passed": true
+  },
+  "P1-1": {
+    "status": "IN_PROGRESS",
+    "last_completed_loop": 1,
+    "last_updated": "2026-03-05T15:13:30+08:00",
+    "acceptance_items": [
+      "Orchestrator 类骨架完成",
+      "支持读取 YAML 配置",
+      "支持调用 Writer 和 Critic Agent",
+      "实现自动运行限制配置 (max_chapters_per_run)"
+    ],
+    "loop_1_items_passed": true,
+    "all_items_passed": false
+  }
+}

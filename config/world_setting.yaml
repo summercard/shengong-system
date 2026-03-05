@@ -1,0 +1,44 @@
+# 神工系统 V3.1 - 世界观配置文件
+# 此文件由 init_project.py 生成或手动配置
+
+project_id: "novel_generic_001"
+project_name: "神工系统测试项目"
+
+# 全局锚点
+global_anchors:
+  logline: "待填写：一句话核心大纲"
+  genre: "待填写：题材类型"
+  power_system: "待填写：力量体系（如适用）"
+
+# 绝对规则
+absolute_rules:
+  do_not_include: []
+  mandatory_hooks: []
+
+# 自动运行配置
+auto_run:
+  enabled: false  # 是否启用自动连续生成
+  max_chapters_per_run: 3  # 单次运行最大生成章节数
+  pause_on_high_risk: true  # 检测到高风险更新时暂停
+
+# 故事节奏配置（Beat Scheduler）
+story_beats:
+  hook:
+    type: "fixed"
+    value: 1
+  first_payoff:
+    type: "range"
+    min: 2
+    max: 4
+  mini_climax:
+    type: "range"
+    min: 8
+    max: 12
+  arc_climax:
+    type: "range"
+    min: 25
+    max: 35
+  world_reveal:
+    type: "range"
+    min: 80
+    max: 120
