@@ -1,0 +1,12 @@
+character_id: char_antagonist_01
+created_at: '2026-03-05T15:24:01.769149'
+static_profile:
+  name: 血魔老祖
+  role: 反派
+  archetype: 野心家
+  core_motive: 一统魔道
+dynamic_state:
+  current_location: 待设定
+  physical_health: 健康
+  mental_state: 正常
+  inventory: []

@@ -1,0 +1,12 @@
+character_id: char_support_01
+created_at: '2026-03-05T15:24:01.769600'
+static_profile:
+  name: 苏晴
+  role: 配角
+  archetype: 圣母
+  core_motive: 守护
+dynamic_state:
+  current_location: 待设定
+  physical_health: 健康
+  mental_state: 正常
+  inventory: []

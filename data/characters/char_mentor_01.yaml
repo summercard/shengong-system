@@ -1,0 +1,12 @@
+character_id: char_mentor_01
+created_at: '2026-03-05T15:24:01.768804'
+static_profile:
+  name: 玄机子
+  role: 导师
+  archetype: 智者
+  core_motive: 传承衣钵
+dynamic_state:
+  current_location: 待设定
+  physical_health: 健康
+  mental_state: 正常
+  inventory: []

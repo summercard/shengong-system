@@ -1,0 +1,12 @@
+character_id: char_main_01
+created_at: '2026-03-05T15:24:01.768018'
+static_profile:
+  name: 林云
+  role: 主角
+  archetype: 孤狼
+  core_motive: 寻找真相
+dynamic_state:
+  current_location: 待设定
+  physical_health: 健康
+  mental_state: 正常
+  inventory: []

@@ -1,15 +1,39 @@
 {
-  "P0-Init": {
-    "status": "DONE",
-    "last_completed_loop": null,
-    "last_updated": "2026-03-05T15:10:00+08:00",
+  "P0-1": {
+    "status": "IN_PROGRESS",
+    "last_completed_loop": 1,
+    "last_updated": "2026-03-05T15:21:00+08:00",
     "acceptance_items": [
-      "读取项目文档",
-      "建立项目日志",
-      "建立阶段列表",
-      "创建artifacts目录"
+      "实现交互式输入（Logline、Genre_Rules）",
+      "根据输入生成 world_setting.yaml",
+      "包含故事大纲、题材标签、禁用元素等"
     ],
-    "all_items_passed": true
+    "loop_1_items_passed": true,
+    "all_items_passed": false
+  },
+  "P0-2": {
+    "status": "IN_PROGRESS",
+    "last_completed_loop": 1,
+    "last_updated": "2026-03-05T15:22:00+08:00",
+    "acceptance_items": [
+      "创建主角 YAML 模板",
+      "创建配角 YAML 模板",
+      "包含 static_profile 和 dynamic_state"
+    ],
+    "loop_1_items_passed": true,
+    "all_items_passed": false
+  },
+  "P0-3": {
+    "status": "IN_PROGRESS",
+    "last_completed_loop": 1,
+    "last_updated": "2026-03-05T15:24:00+08:00",
+    "acceptance_items": [
+      "独立的 init_project.py 脚本",
+      "创建所有数据库表",
+      "支持命令行运行"
+    ],
+    "loop_1_items_passed": true,
+    "all_items_passed": false
   },
   "P1-1": {
     "status": "IN_PROGRESS",
